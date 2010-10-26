@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF3355421276519600F34934 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3355411276519600F34934 /* Cocoa.framework */; };
+		BF3355471276519600F34934 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF3355451276519600F34934 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF33553F1276519600F34934 /* GraphObjects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GraphObjects.framework; path = Users/louis/Development/rebuild3/GraphObjects/build/Debug/GraphObjects.framework; sourceTree = SDKROOT; };
+		BF3355411276519600F34934 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BF3355431276519600F34934 /* GraphObjects-Info.plist */ = {isa = PBXFileReference; path = "GraphObjects-Info.plist"; sourceTree = "<group>"; };
+		BF3355441276519600F34934 /* GraphObjects_Prefix.pch */ = {isa = PBXFileReference; path = GraphObjects_Prefix.pch; sourceTree = "<group>"; };
+		BF3355461276519600F34934 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF33553B1276519600F34934 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3355421276519600F34934 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF33552F1276519600F34934 = {
+			isa = PBXGroup;
+			children = (
+				BF3355361276519600F34934 /* Classes */,
+				BF3355371276519600F34934 /* Other Sources */,
+				BF3355381276519600F34934 /* Resources */,
+				BF3355391276519600F34934 /* Frameworks */,
+				BF3355401276519600F34934 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF3355361276519600F34934 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BF3355371276519600F34934 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BF3355441276519600F34934 /* GraphObjects_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		BF3355381276519600F34934 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF3355431276519600F34934 /* GraphObjects-Info.plist */,
+				BF3355451276519600F34934 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BF3355391276519600F34934 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF3355411276519600F34934 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF3355401276519600F34934 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF33553F1276519600F34934 /* GraphObjects.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BF33553C1276519600F34934 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BF33553E1276519600F34934 /* GraphObjects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF33554A1276519600F34934 /* Build configuration list for PBXNativeTarget "GraphObjects" */;
+			buildPhases = (
+				BF33553A1276519600F34934 /* Sources */,
+				BF33553B1276519600F34934 /* Frameworks */,
+				BF33553C1276519600F34934 /* Headers */,
+				BF33553D1276519600F34934 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraphObjects;
+			productName = GraphObjects;
+			productReference = BF33553F1276519600F34934 /* GraphObjects.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF3355311276519600F34934 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = BF3355341276519600F34934 /* Build configuration list for PBXProject "GraphObjects" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF33552F1276519600F34934;
+			productRefGroup = BF3355401276519600F34934 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF33553E1276519600F34934 /* GraphObjects */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF33553D1276519600F34934 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3355471276519600F34934 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF33553A1276519600F34934 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF3355451276519600F34934 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF3355461276519600F34934 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF3355481276519600F34934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BF3355491276519600F34934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BF33554B1276519600F34934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GraphObjects_Prefix.pch;
+				INFOPLIST_FILE = "GraphObjects-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		BF33554C1276519600F34934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GraphObjects_Prefix.pch;
+				INFOPLIST_FILE = "GraphObjects-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF3355341276519600F34934 /* Build configuration list for PBXProject "GraphObjects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3355481276519600F34934 /* Debug */,
+				BF3355491276519600F34934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF33554A1276519600F34934 /* Build configuration list for PBXNativeTarget "GraphObjects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF33554B1276519600F34934 /* Debug */,
+				BF33554C1276519600F34934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF3355311276519600F34934 /* Project object */;
+}
