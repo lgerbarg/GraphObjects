@@ -7,16 +7,125 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF3355421276519600F34934 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3355411276519600F34934 /* Cocoa.framework */; };
+		BF0234331280D2F2004390C4 /* LGGONumber.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF02342F1280D2F1004390C4 /* LGGONumber.mm */; };
+		BF0234341280D2F2004390C4 /* LGGONumber.h in Headers */ = {isa = PBXBuildFile; fileRef = BF0234301280D2F1004390C4 /* LGGONumber.h */; };
+		BF0234351280D2F2004390C4 /* LGGOString.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF0234311280D2F2004390C4 /* LGGOString.mm */; };
+		BF0234361280D2F2004390C4 /* LGGOString.h in Headers */ = {isa = PBXBuildFile; fileRef = BF0234321280D2F2004390C4 /* LGGOString.h */; };
+		BF0234391280D312004390C4 /* LGGOClass.h in Headers */ = {isa = PBXBuildFile; fileRef = BF0234371280D312004390C4 /* LGGOClass.h */; };
+		BF02343A1280D312004390C4 /* LGGOClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF0234381280D312004390C4 /* LGGOClass.mm */; };
+		BF05B7361281D289009A129D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BF05B7341281D289009A129D /* README.md */; };
+		BF05B7371281D289009A129D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BF05B7351281D289009A129D /* LICENSE */; };
+		BF232704127E8F5200496AF5 /* LGGOCXXNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF232702127E8F5200496AF5 /* LGGOCXXNumber.cpp */; };
+		BF232705127E8F5200496AF5 /* LGGOCXXNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = BF232703127E8F5200496AF5 /* LGGOCXXNumber.h */; };
 		BF3355471276519600F34934 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF3355451276519600F34934 /* InfoPlist.strings */; };
+		BF3355881276523900F34934 /* LGGOCXXMemoryDescriptor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF3355621276523900F34934 /* LGGOCXXMemoryDescriptor.cpp */; };
+		BF3355891276523900F34934 /* LGGOCXXMemoryDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = BF3355631276523900F34934 /* LGGOCXXMemoryDescriptor.h */; };
+		BF33558A1276523900F34934 /* LGGOCXXStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF3355641276523900F34934 /* LGGOCXXStore.cpp */; };
+		BF33558B1276523900F34934 /* LGGOCXXStore.h in Headers */ = {isa = PBXBuildFile; fileRef = BF3355651276523900F34934 /* LGGOCXXStore.h */; };
+		BF33558C1276523900F34934 /* LGGOCXXStoreContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF3355661276523900F34934 /* LGGOCXXStoreContext.cpp */; };
+		BF33558D1276523900F34934 /* LGGOCXXStoreContext.h in Headers */ = {isa = PBXBuildFile; fileRef = BF3355671276523900F34934 /* LGGOCXXStoreContext.h */; };
+		BF33558E1276523900F34934 /* LGGOCXXStoreHash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF3355681276523900F34934 /* LGGOCXXStoreHash.cpp */; };
+		BF33558F1276523900F34934 /* LGGOCXXStoreHash.h in Headers */ = {isa = PBXBuildFile; fileRef = BF3355691276523900F34934 /* LGGOCXXStoreHash.h */; };
+		BF3355901276523900F34934 /* LGGOCXXStoreSegment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF33556A1276523900F34934 /* LGGOCXXStoreSegment.cpp */; };
+		BF3355911276523900F34934 /* LGGOCXXStoreSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = BF33556B1276523900F34934 /* LGGOCXXStoreSegment.h */; };
+		BF33559A1276523900F34934 /* LGGOCXXAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = BF3355761276523900F34934 /* LGGOCXXAddress.h */; };
+		BF33559B1276523900F34934 /* LGGOByteOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = BF3355771276523900F34934 /* LGGOByteOrder.h */; };
+		BF3355A01276526300F34934 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF33559F1276526300F34934 /* Foundation.framework */; };
+		BF3355A21276527800F34934 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3355A11276527800F34934 /* libz.1.2.3.dylib */; };
+		BF42AAA91281CBF600FFCCB9 /* TODO in Resources */ = {isa = PBXBuildFile; fileRef = BF42AAA81281CBF600FFCCB9 /* TODO */; };
+		BF532C15127954B90040B280 /* LGGOCXXType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF532C13127954B90040B280 /* LGGOCXXType.cpp */; };
+		BF532C16127954B90040B280 /* LGGOCXXType.h in Headers */ = {isa = PBXBuildFile; fileRef = BF532C14127954B90040B280 /* LGGOCXXType.h */; };
+		BF532C1E1279690C0040B280 /* LGGOGraphContext.h in Headers */ = {isa = PBXBuildFile; fileRef = BF532C1C1279690C0040B280 /* LGGOGraphContext.h */; };
+		BF532C1F1279690C0040B280 /* LGGOGraphContext.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF532C1D1279690C0040B280 /* LGGOGraphContext.mm */; };
+		BF532C2212796F240040B280 /* LGGOGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = BF532C2012796F240040B280 /* LGGOGraph.h */; };
+		BF532C2312796F240040B280 /* LGGOGraph.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF532C2112796F240040B280 /* LGGOGraph.mm */; };
+		BF6637F212765349000B4A8D /* GraphObjects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF33553F1276519600F34934 /* GraphObjects.framework */; };
+		BFA13448127653DA00D13611 /* LGGOArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA1343F127653DA00D13611 /* LGGOArrayTests.m */; };
+		BFA13449127653DA00D13611 /* LGGOGraphTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA13441127653DA00D13611 /* LGGOGraphTests.m */; };
+		BFA1344A127653DA00D13611 /* LGGOCXXStoreSegmentTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = BFA13443127653DA00D13611 /* LGGOCXXStoreSegmentTests.mm */; };
+		BFA1344B127653DA00D13611 /* LGGONumberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA13445127653DA00D13611 /* LGGONumberTests.m */; };
+		BFA1344C127653DA00D13611 /* LGGOStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA13447127653DA00D13611 /* LGGOStringTests.m */; };
+		BFA37A1C1280D5CC002A0892 /* LGGOCXXHackArray.h in Headers */ = {isa = PBXBuildFile; fileRef = BFA37A1A1280D5CC002A0892 /* LGGOCXXHackArray.h */; };
+		BFA37A1D1280D5CC002A0892 /* LGGOCXXHackArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFA37A1B1280D5CC002A0892 /* LGGOCXXHackArray.cpp */; };
+		BFA37A201280D930002A0892 /* LGGOMutableArray.h in Headers */ = {isa = PBXBuildFile; fileRef = BFA37A1E1280D930002A0892 /* LGGOMutableArray.h */; };
+		BFA37A211280D930002A0892 /* LGGOMutableArray.mm in Sources */ = {isa = PBXBuildFile; fileRef = BFA37A1F1280D930002A0892 /* LGGOMutableArray.mm */; };
+		BFA37A241280DC59002A0892 /* LGGOCXXObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFA37A221280DC59002A0892 /* LGGOCXXObject.cpp */; };
+		BFA37A251280DC59002A0892 /* LGGOCXXObject.h in Headers */ = {isa = PBXBuildFile; fileRef = BFA37A231280DC59002A0892 /* LGGOCXXObject.h */; };
+		BFAB4AF1127801580062BBB3 /* LGGOCXXStoreContextTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = BFAB4AF0127801580062BBB3 /* LGGOCXXStoreContextTests.mm */; };
+		BFD68E511278C519004CBBD2 /* checked.h in Headers */ = {isa = PBXBuildFile; fileRef = BFD68E501278C519004CBBD2 /* checked.h */; };
+		BFD68E531278C52B004CBBD2 /* core.h in Headers */ = {isa = PBXBuildFile; fileRef = BFD68E521278C52B004CBBD2 /* core.h */; };
+		BFD68E551278C538004CBBD2 /* unchecked.h in Headers */ = {isa = PBXBuildFile; fileRef = BFD68E541278C538004CBBD2 /* unchecked.h */; };
+		BFD860D812781F2B00B7B5B3 /* LGGOCXXString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFD860D612781F2B00B7B5B3 /* LGGOCXXString.cpp */; };
+		BFD860D912781F2B00B7B5B3 /* LGGOCXXString.h in Headers */ = {isa = PBXBuildFile; fileRef = BFD860D712781F2B00B7B5B3 /* LGGOCXXString.h */; };
+		BFE3684D127F615200186A53 /* utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = BFE3684C127F615200186A53 /* utf8.h */; };
+		BFE36853127FFA7C00186A53 /* LGGOCXXClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE36851127FFA7C00186A53 /* LGGOCXXClass.cpp */; };
+		BFE36854127FFA7C00186A53 /* LGGOCXXClass.h in Headers */ = {isa = PBXBuildFile; fileRef = BFE36852127FFA7C00186A53 /* LGGOCXXClass.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BF33553F1276519600F34934 /* GraphObjects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GraphObjects.framework; path = Users/louis/Development/rebuild3/GraphObjects/build/Debug/GraphObjects.framework; sourceTree = SDKROOT; };
-		BF3355411276519600F34934 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		BF3355431276519600F34934 /* GraphObjects-Info.plist */ = {isa = PBXFileReference; path = "GraphObjects-Info.plist"; sourceTree = "<group>"; };
-		BF3355441276519600F34934 /* GraphObjects_Prefix.pch */ = {isa = PBXFileReference; path = GraphObjects_Prefix.pch; sourceTree = "<group>"; };
+		BF02342F1280D2F1004390C4 /* LGGONumber.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LGGONumber.mm; sourceTree = "<group>"; };
+		BF0234301280D2F1004390C4 /* LGGONumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGONumber.h; sourceTree = "<group>"; };
+		BF0234311280D2F2004390C4 /* LGGOString.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LGGOString.mm; sourceTree = "<group>"; };
+		BF0234321280D2F2004390C4 /* LGGOString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGOString.h; sourceTree = "<group>"; };
+		BF0234371280D312004390C4 /* LGGOClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGOClass.h; sourceTree = "<group>"; };
+		BF0234381280D312004390C4 /* LGGOClass.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LGGOClass.mm; sourceTree = "<group>"; };
+		BF05B7341281D289009A129D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		BF05B7351281D289009A129D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BF232702127E8F5200496AF5 /* LGGOCXXNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LGGOCXXNumber.cpp; sourceTree = "<group>"; };
+		BF232703127E8F5200496AF5 /* LGGOCXXNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGOCXXNumber.h; sourceTree = "<group>"; };
+		BF33553F1276519600F34934 /* GraphObjects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GraphObjects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3355431276519600F34934 /* GraphObjects-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GraphObjects-Info.plist"; sourceTree = "<group>"; };
+		BF3355441276519600F34934 /* GraphObjects_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphObjects_Prefix.pch; sourceTree = "<group>"; };
 		BF3355461276519600F34934 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF3355621276523900F34934 /* LGGOCXXMemoryDescriptor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LGGOCXXMemoryDescriptor.cpp; sourceTree = "<group>"; };
+		BF3355631276523900F34934 /* LGGOCXXMemoryDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGOCXXMemoryDescriptor.h; sourceTree = "<group>"; };
+		BF3355641276523900F34934 /* LGGOCXXStore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LGGOCXXStore.cpp; sourceTree = "<group>"; };
+		BF3355651276523900F34934 /* LGGOCXXStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGOCXXStore.h; sourceTree = "<group>"; };
+		BF3355661276523900F34934 /* LGGOCXXStoreContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LGGOCXXStoreContext.cpp; sourceTree = "<group>"; };
+		BF3355671276523900F34934 /* LGGOCXXStoreContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGOCXXStoreContext.h; sourceTree = "<group>"; };
+		BF3355681276523900F34934 /* LGGOCXXStoreHash.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LGGOCXXStoreHash.cpp; sourceTree = "<group>"; };
+		BF3355691276523900F34934 /* LGGOCXXStoreHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGOCXXStoreHash.h; sourceTree = "<group>"; };
+		BF33556A1276523900F34934 /* LGGOCXXStoreSegment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LGGOCXXStoreSegment.cpp; sourceTree = "<group>"; };
+		BF33556B1276523900F34934 /* LGGOCXXStoreSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGOCXXStoreSegment.h; sourceTree = "<group>"; };
+		BF3355761276523900F34934 /* LGGOCXXAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGOCXXAddress.h; sourceTree = "<group>"; };
+		BF3355771276523900F34934 /* LGGOByteOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGOByteOrder.h; sourceTree = "<group>"; };
+		BF33559F1276526300F34934 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF3355A11276527800F34934 /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		BF42AAA81281CBF600FFCCB9 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		BF532C13127954B90040B280 /* LGGOCXXType.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LGGOCXXType.cpp; sourceTree = "<group>"; };
+		BF532C14127954B90040B280 /* LGGOCXXType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGOCXXType.h; sourceTree = "<group>"; };
+		BF532C1C1279690C0040B280 /* LGGOGraphContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGOGraphContext.h; sourceTree = "<group>"; };
+		BF532C1D1279690C0040B280 /* LGGOGraphContext.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LGGOGraphContext.mm; sourceTree = "<group>"; };
+		BF532C2012796F240040B280 /* LGGOGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGOGraph.h; sourceTree = "<group>"; };
+		BF532C2112796F240040B280 /* LGGOGraph.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LGGOGraph.mm; sourceTree = "<group>"; };
+		BF6637E91276532E000B4A8D /* GraphObjectsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphObjectsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF6637EA1276532E000B4A8D /* GraphObjectsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GraphObjectsTests-Info.plist"; sourceTree = "<group>"; };
+		BFA1343E127653DA00D13611 /* LGGOArrayTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGOArrayTests.h; sourceTree = "<group>"; };
+		BFA1343F127653DA00D13611 /* LGGOArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGGOArrayTests.m; sourceTree = "<group>"; };
+		BFA13440127653DA00D13611 /* LGGOGraphTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGOGraphTests.h; sourceTree = "<group>"; };
+		BFA13441127653DA00D13611 /* LGGOGraphTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGGOGraphTests.m; sourceTree = "<group>"; };
+		BFA13442127653DA00D13611 /* LGGOCXXStoreSegmentTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGOCXXStoreSegmentTests.h; sourceTree = "<group>"; };
+		BFA13443127653DA00D13611 /* LGGOCXXStoreSegmentTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LGGOCXXStoreSegmentTests.mm; sourceTree = "<group>"; };
+		BFA13444127653DA00D13611 /* LGGONumberTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGONumberTests.h; sourceTree = "<group>"; };
+		BFA13445127653DA00D13611 /* LGGONumberTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGGONumberTests.m; sourceTree = "<group>"; };
+		BFA13446127653DA00D13611 /* LGGOStringTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGOStringTests.h; sourceTree = "<group>"; };
+		BFA13447127653DA00D13611 /* LGGOStringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGGOStringTests.m; sourceTree = "<group>"; };
+		BFA37A1A1280D5CC002A0892 /* LGGOCXXHackArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LGGOCXXHackArray.h; path = Source/Types/Collections/HackArray/LGGOCXXHackArray.h; sourceTree = SOURCE_ROOT; };
+		BFA37A1B1280D5CC002A0892 /* LGGOCXXHackArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LGGOCXXHackArray.cpp; path = Source/Types/Collections/HackArray/LGGOCXXHackArray.cpp; sourceTree = SOURCE_ROOT; };
+		BFA37A1E1280D930002A0892 /* LGGOMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGOMutableArray.h; sourceTree = "<group>"; };
+		BFA37A1F1280D930002A0892 /* LGGOMutableArray.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LGGOMutableArray.mm; sourceTree = "<group>"; };
+		BFA37A221280DC59002A0892 /* LGGOCXXObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LGGOCXXObject.cpp; sourceTree = "<group>"; };
+		BFA37A231280DC59002A0892 /* LGGOCXXObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGOCXXObject.h; sourceTree = "<group>"; };
+		BFAB4AEF127801580062BBB3 /* LGGOCXXStoreContextTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGOCXXStoreContextTests.h; sourceTree = "<group>"; };
+		BFAB4AF0127801580062BBB3 /* LGGOCXXStoreContextTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LGGOCXXStoreContextTests.mm; sourceTree = "<group>"; };
+		BFD68E501278C519004CBBD2 /* checked.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = checked.h; path = /Users/louis/Downloads/utf8_v2_3/source/utf8/checked.h; sourceTree = "<absolute>"; };
+		BFD68E521278C52B004CBBD2 /* core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = core.h; path = /Users/louis/Downloads/utf8_v2_3/source/utf8/core.h; sourceTree = "<absolute>"; };
+		BFD68E541278C538004CBBD2 /* unchecked.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = unchecked.h; path = /Users/louis/Downloads/utf8_v2_3/source/utf8/unchecked.h; sourceTree = "<absolute>"; };
+		BFD860D612781F2B00B7B5B3 /* LGGOCXXString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LGGOCXXString.cpp; sourceTree = "<group>"; };
+		BFD860D712781F2B00B7B5B3 /* LGGOCXXString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGOCXXString.h; sourceTree = "<group>"; };
+		BFE3684C127F615200186A53 /* utf8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = utf8.h; path = unicode/utf8.h; sourceTree = "<group>"; };
+		BFE36851127FFA7C00186A53 /* LGGOCXXClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LGGOCXXClass.cpp; sourceTree = "<group>"; };
+		BFE36852127FFA7C00186A53 /* LGGOCXXClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGOCXXClass.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,7 +133,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF3355421276519600F34934 /* Cocoa.framework in Frameworks */,
+				BF3355A01276526300F34934 /* Foundation.framework in Frameworks */,
+				BF3355A21276527800F34934 /* libz.1.2.3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6637E61276532E000B4A8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6637F212765349000B4A8D /* GraphObjects.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -34,7 +152,11 @@
 		BF33552F1276519600F34934 = {
 			isa = PBXGroup;
 			children = (
-				BF3355361276519600F34934 /* Classes */,
+				BF05B7341281D289009A129D /* README.md */,
+				BF05B7351281D289009A129D /* LICENSE */,
+				BF42AAA81281CBF600FFCCB9 /* TODO */,
+				BFA1343D1276538200D13611 /* Tests */,
+				BF3355361276519600F34934 /* Source */,
 				BF3355371276519600F34934 /* Other Sources */,
 				BF3355381276519600F34934 /* Resources */,
 				BF3355391276519600F34934 /* Frameworks */,
@@ -42,11 +164,15 @@
 			);
 			sourceTree = "<group>";
 		};
-		BF3355361276519600F34934 /* Classes */ = {
+		BF3355361276519600F34934 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				BF3355591276523900F34934 /* objc */,
+				BF3355601276523900F34934 /* Storage */,
+				BF33556C1276523900F34934 /* Types */,
+				BF3355751276523900F34934 /* Utilities */,
 			);
-			path = Classes;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		BF3355371276519600F34934 /* Other Sources */ = {
@@ -60,6 +186,7 @@
 		BF3355381276519600F34934 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BF6637EA1276532E000B4A8D /* GraphObjectsTests-Info.plist */,
 				BF3355431276519600F34934 /* GraphObjects-Info.plist */,
 				BF3355451276519600F34934 /* InfoPlist.strings */,
 			);
@@ -69,7 +196,8 @@
 		BF3355391276519600F34934 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BF3355411276519600F34934 /* Cocoa.framework */,
+				BF3355A11276527800F34934 /* libz.1.2.3.dylib */,
+				BF33559F1276526300F34934 /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -78,8 +206,121 @@
 			isa = PBXGroup;
 			children = (
 				BF33553F1276519600F34934 /* GraphObjects.framework */,
+				BF6637E91276532E000B4A8D /* GraphObjectsTests.octest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BF3355511276523900F34934 /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+				BFCFF20F1280D53000C593F7 /* HackArray */,
+			);
+			path = Collections;
+			sourceTree = "<group>";
+		};
+		BF3355591276523900F34934 /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				BF532C2012796F240040B280 /* LGGOGraph.h */,
+				BF532C2112796F240040B280 /* LGGOGraph.mm */,
+				BF532C1C1279690C0040B280 /* LGGOGraphContext.h */,
+				BF532C1D1279690C0040B280 /* LGGOGraphContext.mm */,
+				BF0234371280D312004390C4 /* LGGOClass.h */,
+				BF0234381280D312004390C4 /* LGGOClass.mm */,
+				BF0234301280D2F1004390C4 /* LGGONumber.h */,
+				BF02342F1280D2F1004390C4 /* LGGONumber.mm */,
+				BF0234321280D2F2004390C4 /* LGGOString.h */,
+				BF0234311280D2F2004390C4 /* LGGOString.mm */,
+				BFA37A1E1280D930002A0892 /* LGGOMutableArray.h */,
+				BFA37A1F1280D930002A0892 /* LGGOMutableArray.mm */,
+			);
+			path = objc;
+			sourceTree = "<group>";
+		};
+		BF3355601276523900F34934 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				BF3355631276523900F34934 /* LGGOCXXMemoryDescriptor.h */,
+				BF3355621276523900F34934 /* LGGOCXXMemoryDescriptor.cpp */,
+				BF3355651276523900F34934 /* LGGOCXXStore.h */,
+				BF3355641276523900F34934 /* LGGOCXXStore.cpp */,
+				BF3355671276523900F34934 /* LGGOCXXStoreContext.h */,
+				BF3355661276523900F34934 /* LGGOCXXStoreContext.cpp */,
+				BF3355691276523900F34934 /* LGGOCXXStoreHash.h */,
+				BF3355681276523900F34934 /* LGGOCXXStoreHash.cpp */,
+				BF33556B1276523900F34934 /* LGGOCXXStoreSegment.h */,
+				BF33556A1276523900F34934 /* LGGOCXXStoreSegment.cpp */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		BF33556C1276523900F34934 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				BF3355511276523900F34934 /* Collections */,
+				BFE36852127FFA7C00186A53 /* LGGOCXXClass.h */,
+				BFE36851127FFA7C00186A53 /* LGGOCXXClass.cpp */,
+				BFA37A231280DC59002A0892 /* LGGOCXXObject.h */,
+				BFA37A221280DC59002A0892 /* LGGOCXXObject.cpp */,
+				BF232703127E8F5200496AF5 /* LGGOCXXNumber.h */,
+				BF232702127E8F5200496AF5 /* LGGOCXXNumber.cpp */,
+				BF532C14127954B90040B280 /* LGGOCXXType.h */,
+				BF532C13127954B90040B280 /* LGGOCXXType.cpp */,
+				BFD860D712781F2B00B7B5B3 /* LGGOCXXString.h */,
+				BFD860D612781F2B00B7B5B3 /* LGGOCXXString.cpp */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		BF3355751276523900F34934 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BFD68E4C1278C4DC004CBBD2 /* unicode */,
+				BF3355761276523900F34934 /* LGGOCXXAddress.h */,
+				BF3355771276523900F34934 /* LGGOByteOrder.h */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BFA1343D1276538200D13611 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BFAB4AEF127801580062BBB3 /* LGGOCXXStoreContextTests.h */,
+				BFAB4AF0127801580062BBB3 /* LGGOCXXStoreContextTests.mm */,
+				BFA1343E127653DA00D13611 /* LGGOArrayTests.h */,
+				BFA1343F127653DA00D13611 /* LGGOArrayTests.m */,
+				BFA13440127653DA00D13611 /* LGGOGraphTests.h */,
+				BFA13441127653DA00D13611 /* LGGOGraphTests.m */,
+				BFA13442127653DA00D13611 /* LGGOCXXStoreSegmentTests.h */,
+				BFA13443127653DA00D13611 /* LGGOCXXStoreSegmentTests.mm */,
+				BFA13444127653DA00D13611 /* LGGONumberTests.h */,
+				BFA13445127653DA00D13611 /* LGGONumberTests.m */,
+				BFA13446127653DA00D13611 /* LGGOStringTests.h */,
+				BFA13447127653DA00D13611 /* LGGOStringTests.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		BFCFF20F1280D53000C593F7 /* HackArray */ = {
+			isa = PBXGroup;
+			children = (
+				BFA37A1A1280D5CC002A0892 /* LGGOCXXHackArray.h */,
+				BFA37A1B1280D5CC002A0892 /* LGGOCXXHackArray.cpp */,
+			);
+			name = HackArray;
+			path = Array/HackArray;
+			sourceTree = "<group>";
+		};
+		BFD68E4C1278C4DC004CBBD2 /* unicode */ = {
+			isa = PBXGroup;
+			children = (
+				BFE3684C127F615200186A53 /* utf8.h */,
+				BFD68E541278C538004CBBD2 /* unchecked.h */,
+				BFD68E521278C52B004CBBD2 /* core.h */,
+				BFD68E501278C519004CBBD2 /* checked.h */,
+			);
+			name = unicode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,6 +330,29 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF3355891276523900F34934 /* LGGOCXXMemoryDescriptor.h in Headers */,
+				BF33558B1276523900F34934 /* LGGOCXXStore.h in Headers */,
+				BF33558D1276523900F34934 /* LGGOCXXStoreContext.h in Headers */,
+				BF33558F1276523900F34934 /* LGGOCXXStoreHash.h in Headers */,
+				BF3355911276523900F34934 /* LGGOCXXStoreSegment.h in Headers */,
+				BF33559A1276523900F34934 /* LGGOCXXAddress.h in Headers */,
+				BF33559B1276523900F34934 /* LGGOByteOrder.h in Headers */,
+				BFD860D912781F2B00B7B5B3 /* LGGOCXXString.h in Headers */,
+				BFD68E511278C519004CBBD2 /* checked.h in Headers */,
+				BFD68E531278C52B004CBBD2 /* core.h in Headers */,
+				BFD68E551278C538004CBBD2 /* unchecked.h in Headers */,
+				BF532C16127954B90040B280 /* LGGOCXXType.h in Headers */,
+				BF532C1E1279690C0040B280 /* LGGOGraphContext.h in Headers */,
+				BF532C2212796F240040B280 /* LGGOGraph.h in Headers */,
+				BF232705127E8F5200496AF5 /* LGGOCXXNumber.h in Headers */,
+				BFE3684D127F615200186A53 /* utf8.h in Headers */,
+				BFE36854127FFA7C00186A53 /* LGGOCXXClass.h in Headers */,
+				BF0234341280D2F2004390C4 /* LGGONumber.h in Headers */,
+				BF0234361280D2F2004390C4 /* LGGOString.h in Headers */,
+				BF0234391280D312004390C4 /* LGGOClass.h in Headers */,
+				BFA37A1C1280D5CC002A0892 /* LGGOCXXHackArray.h in Headers */,
+				BFA37A201280D930002A0892 /* LGGOMutableArray.h in Headers */,
+				BFA37A251280DC59002A0892 /* LGGOCXXObject.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +377,23 @@
 			productReference = BF33553F1276519600F34934 /* GraphObjects.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		BF6637E81276532E000B4A8D /* GraphObjectsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF6637ED1276532E000B4A8D /* Build configuration list for PBXNativeTarget "GraphObjectsTests" */;
+			buildPhases = (
+				BF6637E41276532E000B4A8D /* Resources */,
+				BF6637E51276532E000B4A8D /* Sources */,
+				BF6637E61276532E000B4A8D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraphObjectsTests;
+			productName = GraphObjectsTests;
+			productReference = BF6637E91276532E000B4A8D /* GraphObjectsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -131,6 +412,7 @@
 			projectRoot = "";
 			targets = (
 				BF33553E1276519600F34934 /* GraphObjects */,
+				BF6637E81276532E000B4A8D /* GraphObjectsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -141,6 +423,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF3355471276519600F34934 /* InfoPlist.strings in Resources */,
+				BF42AAA91281CBF600FFCCB9 /* TODO in Resources */,
+				BF05B7361281D289009A129D /* README.md in Resources */,
+				BF05B7371281D289009A129D /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6637E41276532E000B4A8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +443,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF3355881276523900F34934 /* LGGOCXXMemoryDescriptor.cpp in Sources */,
+				BF33558A1276523900F34934 /* LGGOCXXStore.cpp in Sources */,
+				BF33558C1276523900F34934 /* LGGOCXXStoreContext.cpp in Sources */,
+				BF33558E1276523900F34934 /* LGGOCXXStoreHash.cpp in Sources */,
+				BF3355901276523900F34934 /* LGGOCXXStoreSegment.cpp in Sources */,
+				BFD860D812781F2B00B7B5B3 /* LGGOCXXString.cpp in Sources */,
+				BF532C15127954B90040B280 /* LGGOCXXType.cpp in Sources */,
+				BF532C1F1279690C0040B280 /* LGGOGraphContext.mm in Sources */,
+				BF532C2312796F240040B280 /* LGGOGraph.mm in Sources */,
+				BF232704127E8F5200496AF5 /* LGGOCXXNumber.cpp in Sources */,
+				BFE36853127FFA7C00186A53 /* LGGOCXXClass.cpp in Sources */,
+				BF0234331280D2F2004390C4 /* LGGONumber.mm in Sources */,
+				BF0234351280D2F2004390C4 /* LGGOString.mm in Sources */,
+				BF02343A1280D312004390C4 /* LGGOClass.mm in Sources */,
+				BFA37A1D1280D5CC002A0892 /* LGGOCXXHackArray.cpp in Sources */,
+				BFA37A211280D930002A0892 /* LGGOMutableArray.mm in Sources */,
+				BFA37A241280DC59002A0892 /* LGGOCXXObject.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6637E51276532E000B4A8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA13448127653DA00D13611 /* LGGOArrayTests.m in Sources */,
+				BFA13449127653DA00D13611 /* LGGOGraphTests.m in Sources */,
+				BFA1344A127653DA00D13611 /* LGGOCXXStoreSegmentTests.mm in Sources */,
+				BFA1344B127653DA00D13611 /* LGGONumberTests.m in Sources */,
+				BFA1344C127653DA00D13611 /* LGGOStringTests.m in Sources */,
+				BFAB4AF1127801580062BBB3 /* LGGOCXXStoreContextTests.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,7 +493,7 @@
 		BF3355481276519600F34934 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -181,21 +503,21 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.6;
 			};
 			name = Debug;
 		};
 		BF3355491276519600F34934 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PREBINDING = NO;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.6;
 			};
 			name = Release;
 		};
@@ -239,6 +561,60 @@
 			};
 			name = Release;
 		};
+		BF6637EB1276532E000B4A8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Foundation.framework/Headers/Foundation.h";
+				INFOPLIST_FILE = "GraphObjectsTests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					Foundation,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = GraphObjectsTests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BF6637EC1276532E000B4A8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Foundation.framework/Headers/Foundation.h";
+				INFOPLIST_FILE = "GraphObjectsTests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					Foundation,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = GraphObjectsTests;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -256,6 +632,15 @@
 			buildConfigurations = (
 				BF33554B1276519600F34934 /* Debug */,
 				BF33554C1276519600F34934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF6637ED1276532E000B4A8D /* Build configuration list for PBXNativeTarget "GraphObjectsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF6637EB1276532E000B4A8D /* Debug */,
+				BF6637EC1276532E000B4A8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

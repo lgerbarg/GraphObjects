@@ -1,0 +1,16 @@
+CXX
+  Implement serialization for classes that do not have them yet
+  Turn LGGOAddress into a smart pointer and eliminate all the shared pointer and address maps
+  Convert all container interfaces into STL compatible interfaces
+  Get B+Tree based collections running
+  Remove LGGOCXXHackArray
+  Remove the strong maps in LGGOCXXContext
+
+ObjC
+  Use vm_remap with configuration pages to implement high speed accessors (requires per platform assembly stubs)
+  Implement optional methods that are perf criticual (block enumerators, etc)
+  Seperate the headers into public and private files (public files should not require ObjC++, private files may)
+
+Meta
+  Cleanup C++ interface to simplify external bridges (native C++, Lua, JavaScript, etc)
+  Better comments
