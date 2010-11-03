@@ -13,8 +13,6 @@
 		BF0234361280D2F2004390C4 /* LGGOString.h in Headers */ = {isa = PBXBuildFile; fileRef = BF0234321280D2F2004390C4 /* LGGOString.h */; };
 		BF0234391280D312004390C4 /* LGGOClass.h in Headers */ = {isa = PBXBuildFile; fileRef = BF0234371280D312004390C4 /* LGGOClass.h */; };
 		BF02343A1280D312004390C4 /* LGGOClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF0234381280D312004390C4 /* LGGOClass.mm */; };
-		BF05B7361281D289009A129D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BF05B7341281D289009A129D /* README.md */; };
-		BF05B7371281D289009A129D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BF05B7351281D289009A129D /* LICENSE */; };
 		BF232704127E8F5200496AF5 /* LGGOCXXNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF232702127E8F5200496AF5 /* LGGOCXXNumber.cpp */; };
 		BF232705127E8F5200496AF5 /* LGGOCXXNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = BF232703127E8F5200496AF5 /* LGGOCXXNumber.h */; };
 		BF3355471276519600F34934 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF3355451276519600F34934 /* InfoPlist.strings */; };
@@ -32,7 +30,6 @@
 		BF33559B1276523900F34934 /* LGGOByteOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = BF3355771276523900F34934 /* LGGOByteOrder.h */; };
 		BF3355A01276526300F34934 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF33559F1276526300F34934 /* Foundation.framework */; };
 		BF3355A21276527800F34934 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3355A11276527800F34934 /* libz.1.2.3.dylib */; };
-		BF42AAA91281CBF600FFCCB9 /* TODO in Resources */ = {isa = PBXBuildFile; fileRef = BF42AAA81281CBF600FFCCB9 /* TODO */; };
 		BF532C15127954B90040B280 /* LGGOCXXType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF532C13127954B90040B280 /* LGGOCXXType.cpp */; };
 		BF532C16127954B90040B280 /* LGGOCXXType.h in Headers */ = {isa = PBXBuildFile; fileRef = BF532C14127954B90040B280 /* LGGOCXXType.h */; };
 		BF532C1E1279690C0040B280 /* LGGOGraphContext.h in Headers */ = {isa = PBXBuildFile; fileRef = BF532C1C1279690C0040B280 /* LGGOGraphContext.h */; };
@@ -118,6 +115,7 @@
 		BFA37A231280DC59002A0892 /* LGGOCXXObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGOCXXObject.h; sourceTree = "<group>"; };
 		BFAB4AEF127801580062BBB3 /* LGGOCXXStoreContextTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGOCXXStoreContextTests.h; sourceTree = "<group>"; };
 		BFAB4AF0127801580062BBB3 /* LGGOCXXStoreContextTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LGGOCXXStoreContextTests.mm; sourceTree = "<group>"; };
+		BFCB88BC1281EB0A00F47C04 /* GCA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = GCA.pdf; sourceTree = "<group>"; };
 		BFD68E501278C519004CBBD2 /* checked.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = checked.h; path = /Users/louis/Downloads/utf8_v2_3/source/utf8/checked.h; sourceTree = "<absolute>"; };
 		BFD68E521278C52B004CBBD2 /* core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = core.h; path = /Users/louis/Downloads/utf8_v2_3/source/utf8/core.h; sourceTree = "<absolute>"; };
 		BFD68E541278C538004CBBD2 /* unchecked.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = unchecked.h; path = /Users/louis/Downloads/utf8_v2_3/source/utf8/unchecked.h; sourceTree = "<absolute>"; };
@@ -152,6 +150,7 @@
 		BF33552F1276519600F34934 = {
 			isa = PBXGroup;
 			children = (
+				BFCB88BC1281EB0A00F47C04 /* GCA.pdf */,
 				BF05B7341281D289009A129D /* README.md */,
 				BF05B7351281D289009A129D /* LICENSE */,
 				BF42AAA81281CBF600FFCCB9 /* TODO */,
@@ -423,9 +422,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF3355471276519600F34934 /* InfoPlist.strings in Resources */,
-				BF42AAA91281CBF600FFCCB9 /* TODO in Resources */,
-				BF05B7361281D289009A129D /* README.md in Resources */,
-				BF05B7371281D289009A129D /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
